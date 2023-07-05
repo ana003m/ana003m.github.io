@@ -1,0 +1,228 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 300px;
+}
+
+#section{
+  background: url("img/dwnl.jpg");
+background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  height: 740px;
+}
+
+#section::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: -1;
+}
+
+#section h1{
+  font-size: 50px;
+  margin-left: 200px;
+  color: darkgrey;
+}
+
+.nav{
+  display: inline-block;
+
+}
+
+nav{
+ margin-left: 900px;
+  display: flex;
+
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.right{
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 50px;
+  font-family: "Book Antiqua";
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: darkgrey;
+  font-family: "Book Antiqua";
+
+}
+
+nav ul li a:hover{
+color: yellowgreen;
+}
+
+.me{
+  margin-left: 500px;
+  margin-top: -150px;
+  border-radius: 10px;
+  border: 4px dashed dimgrey;
+
+}
+
+
+
+.mail:hover{
+  opacity: 50%;
+}
+
+.ed{
+  border-bottom: 2px dashed black;
+  padding-bottom: 10px;
+}
+
+.ed:last-of-type{
+ border-bottom: none;
+}
+
+#photo{
+  background:url("img/bck.webp") no-repeat;
+  width: 300px;
+  height: 380px;
+  margin-left: 150px;
+  float: left;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 2px dashed black;
+  box-sizing: content-box;
+
+}
+
+#book{
+  background:url("img/bck.webp") no-repeat;
+  width: 300px;
+  height: 380px;
+  margin-right: 150px;
+  float: right;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 2px dashed black;
+  box-sizing: content-box;
+}
+
+#plant{
+  background:url("img/bck.webp") no-repeat;
+  width: 300px;
+  height: 370px;
+  margin-left: 610px;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: 2px dashed black;
+  box-sizing: content-box;
+
+}
+
+.hobby:hover{
+ opacity: 0.7;
+}
+body{
+  font-family: "Book Antiqua";
+}
+
+.contacts{
+  margin-left: 1090px;
+  margin-top: 20px;
+
+}
+
+.homepg:hover{
+  opacity: 0.6;
+}
+
+.copy{
+  color:white;
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+
+}
+
+.main{
+  margin-left:180px;
+  padding-top: 100px
+}
+
+.first{
+  display:inline-block;
+  background-color: white;
+  border:2px solid black;
+  margin-top:25px;
+  height:250px;
+  width: 250px;
+  border-radius: 15px;
+  margin-left: 20px
+}
+
+.second {
+  display:inline-block;
+  border:2px solid black;
+  background-color: white;
+  margin-top:25px;
+  height:250px;
+  width: 250px;
+  border-radius: 15px;
+  margin-left: 70px
+}
+
+.third{
+  display:inline-block;
+  border:2px solid black;
+  background-color: white;
+  margin-top:25px;
+  height:250px;
+  width: 250px;
+  border-radius: 15px;
+  margin-left: 70px;
+}
+
+.s{
+  text-align: center;
+  color: #555555;
+}
+
+.h{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.quot{
+  text-align: center;
+  padding-top: 40px;
+  color: yellowgreen;
+  opacity: 0.3
+}
+
+#plant img, #book img,#photo img{
+ width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  padding-top: 5px;
+  border-radius: 25px;
+}
+
